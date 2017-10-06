@@ -7,17 +7,7 @@ $ create-react-app 프로젝트 디렉토리
 ```
 
 ---
-
-## 2. npm 초기화 및 설치
-
-```bash
-$ npm init -y
-
-$ npm i
-```
-
----
-## 3. react-script를 루트폴더로 이동시키는 작업
+## 2. react-script를 루트폴더로 이동시키는 작업
 
 create-react-app의 설정을 커스텀하기 위한 작업
 node_modules/react-script를 삭제하고 프로젝트의 루트로 script npm run build, npm start 등의 script 파일을 옮기는 작업
@@ -29,9 +19,9 @@ $ npm run eject
 
 ---
 
-## 4. config/webpack.config.dev.js 수정
+## 3. config/webpack.config.dev.js 수정
 
-### 4.1 webpack CSS Style'만' compile시
+### 3.1 webpack CSS Style'만' compile시
 
 ```js
 // config/webpack.config.dev.js
@@ -63,7 +53,7 @@ $ npm run eject
 
 ---
 
-### 4.2 webpack SASS Style'만' compile시
+### 3.2 webpack SASS Style'만' compile시
 
 ```bash
 $ yarn add node-sass sass-loader
