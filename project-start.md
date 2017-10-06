@@ -3,19 +3,20 @@
 ## 1. React 설치
 
 ```bash
-$ creat-react-app 프로젝트 디렉토리
+$ create-react-app 프로젝트 디렉토리
 ```
 
 ---
 
-## 2. npm 초기화
+## 2. npm 초기화 및 설치
 
 ```bash
 $ npm init -y
+
+$ npm i
 ```
 
 ---
-
 ## 3. react-script를 루트폴더로 이동시키는 작업
 
 create-react-app의 설정을 커스텀하기 위한 작업
